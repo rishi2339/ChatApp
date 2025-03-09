@@ -30,4 +30,9 @@ dependencies {
     implementation(libs.logback.classic)
     testImplementation(libs.ktor.server.test.host)
     testImplementation(libs.kotlin.test.junit)
+    implementation(libs.kmongo)
+    implementation(libs.kmongo.coroutine)
+    implementation(libs.koin.ktor)
+    implementation(libs.koin.core)
+    implementation(libs.koin.logger)
 }
